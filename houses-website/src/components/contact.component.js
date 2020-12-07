@@ -16,7 +16,8 @@ export default class Contact extends Component {
             name: '',
             email: '',
             message: '',
-            status: ''
+            status: '',
+            msg: ''
         }
       }
       
@@ -50,6 +51,7 @@ export default class Contact extends Component {
         .then(
           this.setState({status:'We will contact you soon. Thanks for waiting!'})
         );
+        this.setState({msg:'Your query has been accepted.'})
         window.location='/about'
     }
   render() {
@@ -91,6 +93,7 @@ export default class Contact extends Component {
           <div className="form-group">
             <input type="submit" value="Send Message" className="btn btn-primary" />
           </div>
+          <h4 className="font">{this.state.msg}</h4>
         </form>
       </div>
       </div>
