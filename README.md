@@ -19,6 +19,18 @@ CSE
 
 ### Some other dependencies used: Axios, react-router-dom, nodemon, mongoose, cors, dotenv.
 
+# Downloading and Running
+
+1. Download the code and go to house-website folder.
+
+2. Run ```npm i``` to install all dependencies used.
+
+3. Go to backend folder and run ```npm i``` to install all dependencies.
+
+4. Open a terminal in backend folder and run ```nodemon server``` to run backend server at localhost 5000 port.
+
+5. Open another terminal in house-website folder and run ```npm start``` to run frontend at localhost 3000 port.
+
 # Installations
 
 1. Install Node.js and npm.
